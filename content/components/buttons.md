@@ -1,8 +1,8 @@
 ---
-title: Buttons
+title: Buttons TEST COMMIT
 path: components/buttons
 status: Stable
-source: 'https://github.com/primer/css/tree/master/src/buttons'
+source: "https://github.com/primer/css/tree/master/src/buttons"
 ---
 
 Buttons are used to initialize an action. Button labels express what action will occur when the user interacts with it.
@@ -40,10 +40,7 @@ There is a <AwesomeButton
 ### Button with Icon
 
 ```jsx live
-<AwesomeButton
-  size="icon"
-  type="primary"
->
+<AwesomeButton size="icon" type="primary">
   <i className="fa fa-codepen" />
 </AwesomeButton>
 ```
@@ -53,11 +50,7 @@ There is a <AwesomeButton
 ### Secondary Progress Button
 
 ```jsx live
-<AwesomeButtonProgress
-  type="secondary"
->
-  Secondary
-</AwesomeButtonProgress>
+<AwesomeButtonProgress type="secondary">Secondary</AwesomeButtonProgress>
 ```
 
 ## Social Button
@@ -111,8 +104,6 @@ render(<DemoApp />)
 
 This page documents `<AwesomeButton>`, `<AwesomeButtonProgress>`, and `<AwesomeButtonSocial>` components from [React Awesome Button library](https://caferati.me/demo/react-awesome-button).
 
-
-
 We expend the Gatsby theme of this website adding special files to `./src/@bridgetool/gatsby-theme-dev`.
 
 To make the components available in the examples, we link the library in `live-code-components.js` and list all
@@ -120,7 +111,7 @@ its components.
 
 ```js
 import * as awesomeButtons from "react-awesome-button"
-import "react-awesome-button/dist/styles.css";
+import "react-awesome-button/dist/styles.css"
 
 export default {
   // ... other libraries and/or components
@@ -133,7 +124,7 @@ Besides, it can be used in markdown. To make it happen, we put this component to
 
 ```js
 import * as awesomeButtons from "react-awesome-button"
-import "react-awesome-button/dist/styles.css";
+import "react-awesome-button/dist/styles.css"
 
 export default {
   // ... other libraries and/or components
