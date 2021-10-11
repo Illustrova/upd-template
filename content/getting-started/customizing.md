@@ -1,8 +1,8 @@
 ---
-title: Customizing
+title: Customizing12345
 ---
 
-## Examples
+#### Examples
 
 The live code examples are rendered in `<iframe>` elements. You
 can provide additional resources such as CSS for the content of these frames.
@@ -14,8 +14,8 @@ URLS of CSS files you want to link as the elements of the `linkedCSS` array. For
 
 ```js
 export const linkedCSS = [
-  'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
-];
+  "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+]
 ```
 
 ### Provide styles
@@ -23,13 +23,10 @@ export const linkedCSS = [
 You can also provide styles as the text content of `styles` variable in
 `./src/@bridgetool/gatsby-theme-dev/live-code-styles.js`.
 
-
 ```js
-
 export const styles = `
 body {
   color: grey;
 }
-`;
-
+`
 ```
