@@ -25,15 +25,12 @@ Headings are made with styles for `<h1>` through `<h6>` tags.
 
 ## Text elements
 
-
 ```html live
-
-<a>Anchor</a><br/>
-<em>Emphasis</em><br/>
-<small>Small</small><br/>
-<strong>Strong</strong><br/>
+<a>Anchor</a><br />
+<em>Emphasis</em><br />
+<small>Small</small><br />
+<strong>Strong</strong><br />
 <u>Underline</u>
-
 ```
 
 ## How this page is built
@@ -42,11 +39,11 @@ To make the typography examples working, we had to provide global styles for all
 in `src/@bridgetool/gatsby-theme-dev/components/live-preview-wrapper.js` file.
 
 ```js
-import React from 'react'
-import milligramStyles from '!!raw-loader!milligram/dist/milligram.css'
-import {Frame} from '@bridgetool/gatsby-theme-dev'
+import React from "react"
+import milligramStyles from "!!raw-loader!milligram/dist/milligram.css"
+import { Frame } from "@bridgetool/gatsby-theme-dev"
 
-function LivePreviewWrapper({children}) {
+function LivePreviewWrapper({ children }) {
   return (
     <Frame>
       <style>{milligramStyles}</style>
@@ -61,3 +58,4 @@ export default LivePreviewWrapper
 Use `raw-loader` to get the content of your CSS file and output it in `<style>` tag
 inside `<Frame>`. This way, you can provide any global CSS, and it will only
 apply to the examples not to the documentation pages.
+Test
